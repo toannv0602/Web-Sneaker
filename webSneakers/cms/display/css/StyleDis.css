@@ -1,0 +1,291 @@
+﻿.page-product, .colorlib-intro{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+
+    .text-center {
+        text-align: center;
+    }
+.intro {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat", Arial, sans-serif;
+    margin-bottom: 0;
+    font-style: bold;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.colletion-item img{
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.page-product .container .row h2 {
+    height: 50px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.container-pro{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.page-product .product-entry{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #dee2e6;
+}
+.product-entry .img-pro{
+    max-width: 100%;
+    height: auto;
+}
+
+.page-product .product-entry .pro-info{
+    padding: 15px;
+}
+
+.page-product .product-entry .pro-info h2{
+    
+    text-transform: uppercase;
+    font-size: 18px;
+   
+}
+
+.page-product .product-entry .pro-info h2 a{
+    text-decoration: none;
+     color: black;
+}
+
+.page-product .product-entry .pro-info .price{
+    font-family: "Rokkitt", Georgia, serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+}
+
+.page-product a.btn-show-all{
+    padding-top: 50px;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(0, 200, 207);
+    border-radius: 10px;
+    color: #000;
+}
+
+.page-product a.btn-show-all:hover{
+    background-color: rgb(0, 72, 75);
+    color: #ffffff;
+}
+
+.content-detail{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.product-detail .content-pro {
+    margin-top: 30px;
+}
+
+.product-detail .content-pro .row .product-img{ 
+    border: 1px solid rgb(207, 207, 207);
+    padding: 10px;
+    
+}
+.product-detail .content-pro .row .product-img .img-pro{
+    max-width: 100%;
+    height: auto;
+}
+
+.product-detail .content-pro .product-info{
+    padding-left: 40px;
+
+}
+.content-pro .product-info .pro-price {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.product-detail .content-pro .product-info h3{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.product-detail .content-pro .product-info .rate, .size-pro, .soluong{
+    margin-top: 20px;
+    display: block;
+}
+
+.product-detail .content-pro .size-pro select, .soluong input{
+    padding: 10px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.product-detail .content-pro .cart{
+    margin-top: 50px;
+    
+}
+
+.product-detail .content-pro .btn-add-cart{
+    padding-top: 50px;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    background-color: #616161;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+.product-detail .content-pro .btn-add-cart:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+
+.product-detail .content-pro .btn-buy{
+    
+    padding-top: 50px;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(0, 190, 175);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.product-detail .content-pro .btn-buy:hover{
+    background-color: rgb(0, 61, 56);
+    cursor: pointer;
+}
+
+.product-detail .footer-pro{
+    text-align: center;
+}
+
+.cart-detail{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.cart-detail .cart-content{
+    width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.cart-detail .cart-content .list-pro{
+    width: 520px;
+}
+
+.cart-detail .cart-content .list-info{
+    width: 130px;
+}
+
+.cart-detail .cart-content .list-info input{
+    padding: 5px;
+    width: 20px;
+}
+.cart-detail .cart-content .row-head, .cart-detail .cart-content .row-detail{
+    display: inline-flex;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+}
+
+.d-flext{
+     display: flex;
+}
+
+.cart-detail .cart-content .row-head{
+    
+    background-color: #dbdbdb;
+    border-radius: 30px;
+}
+
+.cart-detail .cart-content .img-pro{
+    max-width: 100px;
+    height: auto;
+}
+
+.cart-detail .cart-content .img-cart{
+    width: 100px;
+}
+.boder-bt{
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.cart-detail .cart-content .pro-name{
+    margin-left: 20px;
+}
+
+.cart-detail .cart-content .total-wrap{
+    margin-top: 100px;
+}
+
+ .cart-content .total-wrap .total{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.total-wrap .total .sub{
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.total-wrap .total .sub span:last-child{
+    height: 500;
+    font-size: 30px;
+    color: rgb(209, 66, 0);
+}
+.cart-content .total-wrap .btn-order{
+    margin-left: 350px;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(196, 132, 132);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+
+.cart-content .total-wrap .btn-order:hover{
+    background-color: rgb(97, 7, 0);
+    cursor: pointer;
+}
+
+
+.cart-detail .cart-content .btn-home {
+    margin-top: 200px;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(111, 169, 187);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+    .cart-detail .cart-content .btn-home:hover {
+        background-color: rgb(0, 56, 66);
+        cursor: pointer;
+    }
+
+.cart-detail .cart-content .home-button {
+    margin-top: 50px;
+}
+
+

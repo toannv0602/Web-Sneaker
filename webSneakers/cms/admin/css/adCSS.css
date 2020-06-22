@@ -1,0 +1,159 @@
+﻿.content-product {
+    margin-bottom: 100px;
+}
+
+    .content-product h3 {
+        background-color: rgb(0, 182, 182);
+        border-radius: 10px 5px;
+        padding: 5px 0px 5px 38px;
+    }
+
+    .content-product .list-category {
+        margin-top: 50px;
+    }
+
+.list-category-menu, .list-menu {
+    border: 1px solid cadetblue;
+    margin-top: -18px;
+    border-radius: 15px 10px;
+}
+
+    .list-category-menu ul, .list-menu ul {
+        list-style: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        .list-category-menu ul li, .list-menu ul li {
+            height: 30px;
+            line-height: 30px;
+            transition: 0.4s;
+        }
+
+    .list-category-menu a, .list-menu a {
+        text-decoration: none;
+        display: block;
+        color: rgb(46, 44, 44);
+        transition: 0.4s;
+    }
+
+    .list-category-menu ul li .icon, .list-menu ul li .icon {
+        display: inline;
+        opacity: 0;
+    }
+
+    .list-category-menu ul .menu-content, .list-menu .menu-content {
+        display: inline;
+    }
+
+    .list-category-menu ul li:hover .icon, .list-menu ul li:hover .icon {
+        opacity: 1;
+    }
+
+    .list-category-menu ul li a:hover, .list-menu ul li a:hover {
+        margin-left: 20px;
+        color: rgb(0, 150, 155);
+    }
+
+.table-product {
+    padding: 10px;
+}
+
+.table-tk {
+    width: 100%;
+    text-align: center;
+    border-spacing: 15px;
+}
+
+    .table-tk td {
+        border-bottom: 1px solid red;
+    }
+
+    .table-tk, .table-tk td {
+        padding: auto;
+        border-radius: 10px 2px;
+    }
+
+        .table-tk .table-header td {
+            background-color: aquamarine;
+            padding: 10px
+        }
+
+.table-product .table-tk .set-img {
+    height: 100px;
+    width: 100px;
+}
+
+.table-product .table-tk img {
+    width: 100%;
+    border-radius: 20%;
+}
+.table-product .table-tk .set-img img:hover {
+    width: 150%;
+    border-radius: 20%;
+}
+
+
+.thongTin {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    float: left
+}
+
+    .thongTin .tenTruong {
+        width: 30%;
+        margin: 5px 10px 5px 10px;
+    }
+
+    .thongTin .inhap {
+        width: 70%;
+        margin: 5px 10px 5px 10px;
+    }
+
+    .thongTin input[type=text] {
+        width: 80%;
+    }
+
+    .thongTin .huy, .thongTin .them {
+        margin: 5px 15px 5px 15px;
+        padding: 15px 30px 15px 30px;
+        font-size: 16px;
+        float: right;
+    }
+
+    .thongTin .huy {
+        background-color: #ffcb9b;
+        color: green;
+    }
+
+    .thongTin .them {
+        background-color: #8ceeff;
+        color: red;
+        margin-left: 50%;
+    }
+
+    .thongTin .inhap .anhSP {
+        max-width: 200px;
+        max-height: 120px;
+    }
+
+.table-product .ltrThongBao {
+    color: green;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+.table-tk .edit {
+    font-size: 30px;
+}
+
+.table-product .table-tk .tr-client td {
+    background-color: rgb(169, 255, 158);
+    padding: 10px;
+}
+
+.tr-product:hover{
+    background-color:aqua;
+}
+

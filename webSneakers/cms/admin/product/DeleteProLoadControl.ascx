@@ -1,0 +1,1 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="DeleteProLoadControl.ascx.cs" Inherits="webSneakers.cms.admin.product.DeleteProLoadControl" %>
